@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(125deg, #2d86e0, #38d77a, #504bd3, #d99b74, #8c44ad);
+    background-size: 300% 150%;
+    animation: bganimation 15s infinite
+}
+
+form {
+
+    transform: translate(115%, -10%);
+    width: 385px;
+    height: 720px;
+    background: rgb(255 255 255);
+    border-radius: 15px;
+    box-sizing: border-box;
+
+}
+
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 90px;
+    padding-top: 44px;
+    font-size: 39px;
+
+}
+
+[type="email"],
+[type="password"],
+[type="text"] {
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 281px;
+    height: 35px;
+    border-bottom: 2px solid #0094ff;
+    background: none;
+    padding: 5px;
+    font-size: 122%;
+    font-weight: 900;
+    color: rgb(1, 0, 0);
+}
+
+
+input[name="firstname"] {
+    top: 115px;
+    left: 45px;
+}
+
+input[name="lastname"] {
+    top: 185px;
+    left: 45px;
+}
+
+input[name="email"] {
+    top: 345px;
+    left: 45px;
+    border: 2px solid #ff0000;
+}
+
+input[name="username"] {
+    top: 255px;
+    left: 45px;
+}
+
+input[name="pre_password"] {
+    top: 395px;
+    left: 45px;
+    border: 2px solid #ff0000;
+}
+
+input[name="new_password"] {
+    top: 505px;
+    left: 45px;
+}
+
+input[name="confirm_new_password"] {
+    top: 575px;
+    left: 45px;
+    font-size: 106%;
+}
+
+
+::placeholder {
+    text-align: center;
+    color: rgb(128, 126, 126);
+}
+
+input[value="update"] {
+    position: absolute;
+    bottom: 39px;
+    left: 45px;
+    width: 291px;
+    height: 44px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 22px;
+
+}
+
+input[value="update"]:hover {
+    background: #ffa200;
+    color: #ffffff;
+    height: 46px;
+    transition-duration: 0.2s;
+}
+
+input[value="delete"] {
+    position: absolute;
+    bottom: 39px;
+    left: 45px;
+    width: 291px;
+    height: 44px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 22px;
+
+}
+
+input[value="delete"]:hover {
+    background: #ffa200;
+    color: #ffffff;
+    height: 46px;
+    transition-duration: 0.2s;
+}
+
+
+a {
+    position: absolute;
+    top: 687px;
+    left: 153px;
+    color: #2100ff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #ffa206;
+    font-size: 14.5px;
+    transition-duration: 0.2s;
+}
+
+@keyframes bganimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media(max-width:991px) {
+    body {
+        padding: 0;
+        background-image: linear-gradient(125deg, #2c3e50, #27ae60, #2980b9, #e47c3c, #8c44ad);
+        background-size: 103% 536%;
+        animation: bganimation 15s infinite;
+    }
+
+    form {
+        transform: translate(11%, 19%);
+        width: 82%;
+        height: 1405px;
+        background: rgb(255 255 255);
+        border-radius: 15px;
+        box-sizing: border-box;
+        font-size: 104px;
+
+    }
+
+
+    h2 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 90px;
+        padding-top: 44px;
+        font-size: 77px;
+
+    }
+
+    input[type="email"],
+    [type="password"],
+    [type="text"] {
+        position: absolute;
+        bottom: 92 px;
+        left: 45 px;
+        width: 663 px;
+        height: 75 px;
+        background: #0077ff;
+        border: none;
+        outline: none;
+        color: #fff;
+        border-radius: 15 px;
+        font-size: 53px;
+    }
+
+
+    input[name="firstname"] {
+        top: 300px;
+        left: 70px;
+    }
+
+    input[name="lastname"] {
+        top: 470px;
+        left: 70px;
+    }
+
+    input[name="email"] {
+        top: 640px;
+        left: 70px;
+    }
+
+    input[name="username"] {
+        top: 810px;
+        left: 70px;
+    }
+
+    input[name="pre_password"] {
+        top: 975px;
+        left: 70px;
+    }
+
+    input[name="new_password"] {
+        top: 1145px;
+        left: 70px;
+    }
+
+    input[name="confirm_new_password"] {
+        top: 1310px;
+        left: 70px;
+    }
+
+    ::placeholder {
+        text-align: center;
+        color: rgb(150, 148, 148)
+    }
+
+    input[value="update"] {
+        position: absolute;
+        bottom: 69px;
+        left: 70px;
+        width: 509px;
+        height: 75px;
+        background: #0077ff;
+        border: none;
+        outline: none;
+        color: #fff;
+        border-radius: 15px;
+        font-size: 53px;
+
+    }
+
+    input[value="update"]:hover {
+        background: #ffa200;
+        color: #ffffff;
+        height: 77px;
+        transition-duration: 0.2s;
+    }
+
+    @keyframes bganimation {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}
